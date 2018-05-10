@@ -17,12 +17,15 @@ Summary: A wrapper library to read, manipulate and write data in xls using xlrd 
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyexcel-xls-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyexcel-xls-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pyexcel-xls-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pyexcel-xls-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyexcel-xls/badges/version.svg)](https://anaconda.org/conda-forge/pyexcel-xls)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pyexcel-xls/badges/downloads.svg)](https://anaconda.org/conda-forge/pyexcel-xls)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pyexcel--xls-green.svg)](https://anaconda.org/conda-forge/pyexcel-xls) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pyexcel-xls.svg)](https://anaconda.org/conda-forge/pyexcel-xls) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pyexcel-xls.svg)](https://anaconda.org/conda-forge/pyexcel-xls) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pyexcel-xls.svg)](https://anaconda.org/conda-forge/pyexcel-xls) |
 
 Installing pyexcel-xls
 ======================

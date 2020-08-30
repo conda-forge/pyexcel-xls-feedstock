@@ -1,6 +1,6 @@
 {% set name = "pyexcel-xls" %}
-{% set version = "0.5.8" %}
-{% set sha256 = "2d33eb4bd8dadfb8c73b5ccc6a238d65b3914e89a7553b1f39b9397b17cbe402" %}
+{% set version = "0.5.9" %}
+{% set sha256 = "d56cadea0a660684456976d98052554d3bbe2a78afc5f9a91c8691f626608555" %}
 
 package:
   name: {{ name|lower }}
@@ -37,7 +37,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'A wrapper library to read, manipulate and write data in xls using xlrd and xlwt'
+  summary: A wrapper library to read, manipulate and write data in xls using xlrd and xlwt
   description: |
     'A wrapper library to read, manipulate and write data in xls format. It' +
     ' reads xlsx and xlsm format' +

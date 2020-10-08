@@ -5,9 +5,11 @@ Home: https://github.com/pyexcel/pyexcel-xls
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyexcel-xls-feedstock/blob/master/LICENSE.txt)
 
 Summary: A wrapper library to read, manipulate and write data in xls using xlrd and xlwt
+
+Development: https://github.com/pyexcel/pyexcel-xls
 
 'A wrapper library to read, manipulate and write data in xls format. It' +
 ' reads xlsx and xlsm format' +

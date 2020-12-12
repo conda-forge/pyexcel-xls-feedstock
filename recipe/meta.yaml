@@ -23,9 +23,9 @@ requirements:
     - setuptools
 
   run:
-    - python
-    - pyexcel-io >=0.5.0
-    - xlrd
+    - python >=3.6
+    - pyexcel-io >=0.6.2
+    - xlrd <2
     - xlwt
 
 test:

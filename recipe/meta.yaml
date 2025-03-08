@@ -1,6 +1,6 @@
 {% set name = "pyexcel-xls" %}
-{% set version = "0.6.2" %}
-{% set sha256 = "2fbf66e8df88051eaaa9745be433903d18db819ddd3a987c992ead1d68b7feb5" %}
+{% set version = "0.7.1" %}
+{% set sha256 = "0e8c598dc840f9216507f1c16975c18b06e36df09acd79bda1a9de2f9cad0761" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install . --no-deps --ignore-installed
 
 requirements:
